@@ -1,0 +1,7 @@
+{
+  "name": "lemon-page",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

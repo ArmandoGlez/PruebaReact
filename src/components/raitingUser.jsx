@@ -201,7 +201,7 @@ export default function raitingUser() {
                     </div>
                   )}
                   {/* Mensaje de error */}
-                  console.log("pene");
+                  console.log("pene"); console.log("pene 2")
                   {Object.keys(errors).length !== 0 && (
                     <Alert severity="error">Something went wrong</Alert>
                   )}

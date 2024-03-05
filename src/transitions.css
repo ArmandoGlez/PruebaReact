@@ -1,0 +1,85 @@
+.txtTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 20px;
+   text-align: center;
+}
+
+.centerItems{
+    
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 5%;
+    transition-duration: 0.2s;
+   
+}
+
+
+.centerItems:hover{
+    box-shadow: 0 0 10px red;
+    scale: 1.01;
+}
+
+.cardTransition{
+    transition-duration: 0.5s;
+}
+
+.cardTransition:hover{
+    scale: 1.02;
+    
+}
+
+
+@keyframes scaleUp {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  
+  @keyframes scaleDown {
+    from {
+      transform: scale(1.2);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .my-element {
+    transition: transform 0.3s ease;
+  }
+  
+  .my-element:hover {
+    animation: scaleUp 0.5s forwards;
+  }
+  
+  .my-element:hover {
+    animation: scaleUp 0.5s forwards;
+  }
+  
+  .my-element:not(:hover) {
+    animation: scaleDown 0.5s forwards;
+  }
+  
+
+
+  /*ICONO*/
+  .icnAnimation {
+    transition: transform 0.3s ease;
+  }
+  
+  .icnAnimation:hover {
+    animation: scaleUp 0.5s forwards;
+  }
+  
+  .icnAnimation:hover {
+    animation: scaleUp 0.5s forwards;
+  }
+  
+  .icnAnimation:not(:hover) {
+    animation: scaleDown 0.5s forwards;
+  }
